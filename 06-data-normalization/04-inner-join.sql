@@ -1,0 +1,16 @@
+-- simple inner join
+-- SELECT *
+-- FROM users
+--     INNER JOIN addresses ON users.address_id = addresses.id;
+-- -- -- -- -- 
+-- SELECT *
+-- FROM users AS u
+--     INNER JOIN addresses AS a ON u.address_id = a.id;
+-- -- -- -- -- -- 
+-- SELECT u.id, first_name, last_name, street, house_number, city_id
+-- FROM users AS u
+--     INNER JOIN addresses AS a ON u.address_id = a.id;
+-- -- -- -- -- -- 
+-- SELECT u.id, u.first_name, u.last_name, a.street, a.house_number, a.city_id
+-- FROM users AS u
+--     INNER JOIN addresses AS a ON u.address_id = a.id;
